@@ -1,9 +1,40 @@
 ---
-layout: post
-title: "Reproducing: Improve User Retention with Causal Learning"
+layout: distill
+title: "Distilling Uber's Causal Learning for User Retention"
 date: 2021-05-29T19:34:30-04:00
-description: An attempt to reproduce a paper from Uber Research
-comments: true
+description: An attempt to understand and reproduce a paper from Uber Research.
+
+authors:
+  - name: Jevgenij Gamper
+    url: 
+    affiliations:
+      name: 
+
+bibliography: 2021-05-29-uber-causal.bib
+
+# Below is an example of injecting additional post-specific styles.
+# If you use this post as a template, delete this _styles block.
+_styles: >
+  .fake-img {
+    background: #bbb;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 12px;
+  }
+  .fake-img p {
+    font-family: monospace;
+    color: white;
+    text-align: left;
+    margin: 12px 0;
+    text-align: center;
+    font-size: 16px;
+  }
+
+---
+
+**NOTE:**
+Citations, footnotes, and code blocks do not display correctly in the dark mode since distill does not support the dark mode by default.
+Click on the sun above to disable dark mode.
 ---
 
 At first thought, these moments at the intersection of digital 
@@ -43,16 +74,3 @@ set the rules. There are plenty of examples of well designed studies, that lead 
 insights and need far less computational power. With the perk of having fewer degrees 
 of freedom to control for. Fewer hyper-paratemers, no parallel computation quirks, etc. 
 
-
-
-Cite as:
-
-```
-@article{gamper2020gpt-unsolved,
-  title   = "The last polymath, a neural network",
-  author  = "Gamper, Jevgenij",
-  journal = "https://bruteforceimagination.com/",
-  year    = "2020",
-  url     = "https://bruteforceimagination.com/blog/2020/gpt-polymath/"
-}
-```
