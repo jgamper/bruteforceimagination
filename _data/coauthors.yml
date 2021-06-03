@@ -1,18 +1,15 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Rajpoot":
+  - firstname: ["Nasir", "N.", "N. R.", "Nasir Rajpoot"]
+    url: https://scholar.google.com/citations?user=BSDXhwgAAAAJ
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Armstrong":
+  - firstname: ["David J", "D.", "D. A.", "David Armstrong"]
+    url: https://scholar.google.com/citations?user=u8e-4FMAAAAJ&hl=enJ
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Damoulas":
+  - firstname: ["Theodoros", "T.", "D. T.", "Theodoros Damoulas"]
+    url: https://scholar.google.com/citations?user=sRg-VkwAAAAJ&hl=en
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
-
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Koohbanani":
+  - firstname: ["Navid Alemi", "N A.", "N. A.", "Navid Alemi Koohbanani"]
+    url: https://scholar.google.com/citations?user=RZjPWjcAAAAJ&hl=en

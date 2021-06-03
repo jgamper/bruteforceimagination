@@ -1,72 +1,64 @@
 ---
 ---
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
+@article{gamper2021multiple,
+  abbr={CVPR},
+  title={Multiple Instance Captioning: Learning Representations from Histopathology Textbooks and Articles},
+  author={Gamper, Jevgenij and Rajpoot, Nasir},
+  abstract={We present ARCH, a computational pathology (CP) multiple instance captioning dataset to facilitate dense supervision of CP tasks.
+  Existing CP datasets focus on narrow tasks; ARCH on the other hand contains dense diagnostic and morphological descriptions for a range of stains, tissue types and pathologies.
+  Using intrinsic dimensionality estimation, we show that ARCH is the only CP dataset to (ARCH-)rival its computer vision analog MS-COCO Captions. We conjecture that an encoder
+  pre-trained on dense image captions learns transferable representations for most CP tasks. We support the conjecture with evidence that ARCH representation transfers to a
+  variety of pathology sub-tasks better than ImageNet features or representations obtained via self-supervised or multi-task learning on pathology images alone.
+  We release our best model and invite other researchers to test it on their CP tasks.},
+  url={https://arxiv.org/abs/2103.05121},
+  html={https://arxiv.org/abs/2103.05121},
+  pdf={https://arxiv.org/pdf/2103.05121.pdf},
+  journal={Conference on Computer Vision and Pattern Recognition},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  year={2021},
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{armstrong2021exoplanet,
+  abbr={MNRAS},
+  title={Exoplanet validation with machine learning: 50 new validated Kepler planets},
+  author={Armstrong, David J and Gamper, Jevgenij and Damoulas, Theodoros},
+  abstract={Over 30% of the ~4000 known exoplanets to date have been discovered using 'validation', where the statistical
+  likelihood of a transit arising from a false positive (FP), non-planetary scenario is calculated. For the large majority
+  of these validated planets calculations were performed using the vespa algorithm (Morton et al. 2016). Regardless of
+  the strengths and weaknesses of vespa, it is highly desirable for the catalogue of known planets not to be dependent
+  on a single method. We demonstrate the use of machine learning algorithms, specifically a gaussian process classifier
+  (GPC) reinforced by other models, to perform probabilistic planet validation incorporating prior probabilities for
+  possible FP scenarios. The GPC can attain a mean log-loss per sample of 0.54 when separating confirmed planets from
+  FPs in the Kepler threshold crossing event (TCE) catalogue. Our models can validate thousands of unseen candidates
+  in seconds once applicable vetting metrics are calculated, and can be adapted to work with the active TESS mission,
+  where the large number of observed targets necessitates the use of automated algorithms. We discuss the limitations
+  and caveats of this methodology, and after accounting for possible failure modes newly validate 50 Kepler candidates
+  as planets, sanity checking the validations by confirming them with vespa using up to date stellar information.
+  Concerning discrepancies with vespa arise for many other candidates, which typically resolve in favour of our models.
+  Given such issues, we caution against using single-method planet validation with either method until the discrepancies
+  are fully understood.},
+  journal={Monthly Notices of the Royal Astronomical Society},
+  volume={504},
+  number={4},
+  pages={5327--5344},
+  year={2021},
+  publisher={Oxford University Press},
+  url={https://academic.oup.com/mnras/article-abstract/504/4/5327/5894933},
+  html={https://academic.oup.com/mnras/article-abstract/504/4/5327/5894933},
+  pdf={https://arxiv.org/pdf/2008.10516.pdf},
+  selected={true}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{gamper2019pannuke,
+  abbr={ECDP},
+  title={Pannuke: an open pan-cancer histology dataset for nuclei instance segmentation and classification},
+  author={Gamper, Jevgenij and Koohbanani, Navid Alemi and Benet, Ksenija and Khuram, Ali and Rajpoot, Nasir},
+  booktitle={European Congress on Digital Pathology},
+  pages={11--19},
+  year={2019},
+  url={https://link.springer.com/chapter/10.1007/978-3-030-23937-4_2},
+  html={https://link.springer.com/chapter/10.1007/978-3-030-23937-4_2},
+  organization={Springer},
+  selected={true}
 }

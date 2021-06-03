@@ -6,13 +6,12 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Jev
 middle_name:
 last_name: Gamper
-email: you@example.com
+email: jevgenij.gamper5@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 icon: 🚀 # the emoji used as the favicon
 url:  # the base hostname & protocol for your site
@@ -45,9 +44,9 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: jgamper # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: jevgamper # your Twitter handle
+twitter_username: JevGamper # your Twitter handle
 linkedin_username: jevgamper # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
+scholar_userid: 5jqljH0AAAAJ&hl # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -61,7 +60,7 @@ wikidata_id: # your wikidata id
 contact_note: >
   To contact me, message on Twitter or LinkedIn. Or email me at <strong>jevgenij.gamper5 <i>at</i> gmail.com</strong>
 
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
+google_analytics: UA-138288350-1 # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 
 # -----------------------------------------------------------------------------
@@ -166,7 +165,7 @@ scholar:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false  # enables google analytics
+enable_google_analytics:    true  # enables google analytics
 enable_panelbear_analytics: false  # enables panelbear analytics
 enable_mansory:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)

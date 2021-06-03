@@ -10,7 +10,7 @@ profile:
   address: >
 
 news: false
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true
 ---
 
@@ -22,7 +22,9 @@ for exo-planets in other solar systems; <a href="{{ site.baseurl }}/assets/img/e
 
 Currently a PhD student at [Tissue Image Analytics lab](https://warwick.ac.uk/fac/sci/dcs/research/tia/) at The University of Warwick, 
 funded by [Philips](https://www.philips.co.uk/healthcare/solutions/pathology).
-Meanwhile, also a senior scientist at [Cervest Ltd.](https://cervest.earth/), where 
-I build machine learning tools for earth sciences, and help shaping a research driven company.
+Previously, a senior scientist at [Cervest Ltd.](https://cervest.earth/), where 
+I built machine learning tools for earth sciences, and helped shaping a research driven company. Now a
+machine learning team lead at [Vinted](https://www.vinted.com/) and a board member at [Artificial 
+Intelligence Association of Lithunia](https://lithuania.ai/).
 
 My aim is to be useful not just as a sciency-entrepreneur and a citizen, but also as a mentor or mentee.
